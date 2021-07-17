@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.header {
+  width: 100%;
+  line-height: 100px;
+  color: white;
+  background: transparent;
+  background-color: #f5ba13;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 3px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  width: 100%;
+  line-height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+form {
+  min-height: 50px;
+  color: #ecf0f1;
+  box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.5);
+  padding: 15px 10px 5px 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.my_notes p {
+  color: grey;
+}
+
+.my_notes h1 {
+  color: #34495e;
+}
+
+.main_note {
+  width: 500px;
+  padding: 15px 10px 5px 10px;
+  margin: 20px auto;
+}
+
+.deleteIcon {
+  width: 0.7em;
+  height: 0.7em;
+}
+
+.note .btn:hover {
+  background-color: crimson;
+}
+
+.note .btn:hover .deleteIcon {
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.note .btn {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f4b400;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.note p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note h1 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+
+.MuiButton-root:hover .plus_sign {
+  color: #fff;
+  background: transparent;
+}
+
+.MuiButton-root:hover {
+  background-color: lawngreen !important;
+}
+
+.MuiButton-root .plus_sign {
+  color: #f4b400;
+  background: transparent;
+  font-size: 45px !important;
+  font-weight: 900;
+  cursor: pointer;
+  z-index: 222;
+}
+
+.MuiButton-root {
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  bottom: -28px;
+  left: 400px;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 50% !important;
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 55%;
+  }
+}
