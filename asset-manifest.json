@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/keepNotesHere/static/css/main.d7e189da.chunk.css",
+    "main.js": "/keepNotesHere/static/js/main.d10e0afb.chunk.js",
+    "main.js.map": "/keepNotesHere/static/js/main.d10e0afb.chunk.js.map",
+    "runtime-main.js": "/keepNotesHere/static/js/runtime-main.19b0e691.js",
+    "runtime-main.js.map": "/keepNotesHere/static/js/runtime-main.19b0e691.js.map",
+    "static/css/2.d45d6843.chunk.css": "/keepNotesHere/static/css/2.d45d6843.chunk.css",
+    "static/js/2.8727363a.chunk.js": "/keepNotesHere/static/js/2.8727363a.chunk.js",
+    "static/js/2.8727363a.chunk.js.map": "/keepNotesHere/static/js/2.8727363a.chunk.js.map",
+    "index.html": "/keepNotesHere/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/keepNotesHere/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.d7e189da.chunk.css.map": "/keepNotesHere/static/css/main.d7e189da.chunk.css.map",
+    "static/js/2.8727363a.chunk.js.LICENSE.txt": "/keepNotesHere/static/js/2.8727363a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19b0e691.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.8727363a.chunk.js",
+    "static/css/main.d7e189da.chunk.css",
+    "static/js/main.d10e0afb.chunk.js"
+  ]
+}
